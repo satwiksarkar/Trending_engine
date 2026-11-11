@@ -12,7 +12,7 @@ response = http.request(
     headers={
         'Accept': 'text/event-stream',
         # Add a custom User-Agent here. Use your actual email.
-        'User-Agent': 'GraviaTrendingEngine/1.0 (satwiksarkar3378@gmail.com)' 
+        'User-Agent': 'GraviaTrendingEngine/1.0 ' 
     },
     timeout=urllib3.Timeout(connect=10.0, read=90.0),
 )

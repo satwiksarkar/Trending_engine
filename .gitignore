@@ -21,6 +21,10 @@ dist/
 .coverage.*
 htmlcov/
 
+# Keep the data directory, but do not track its contents.
+data/**
+!data/.gitkeep
+
 # Environment files
 .env
 .env.*
